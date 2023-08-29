@@ -31,6 +31,7 @@
  *              version 2 dec 2018 - adaptation version Dolibarr 8.0.3 
  * 				version 2.6 avril 2021 - migration version Dolibarr 12.0.5
  * 				version 2.6.1 mars 2020 - migration version Dolibarr 12.0.5
+ *				version 2.9 - Migration V17
  
  */
 include_once DOL_DOCUMENT_ROOT .'/core/modules/DolibarrModules.class.php';
@@ -66,7 +67,7 @@ class ModCahierSuivi extends DolibarrModules
 		// Module description, used if translation string 'ModuleXXXDesc' not found (where XXX is value of numeric property 'numero' of module)
 	$this->description = $langs->trans('TiDescModCahierSuivi');
 		// Possible values for version are: 'development', 'experimental', 'dolibarr' or version
-	$this->version = '2.6.1';
+	$this->version = '2.9';
 		// Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
 	$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		// Where to store the module in setup page (0=common,1=interface,2=others,3=very specific)
@@ -304,6 +305,8 @@ class ModCahierSuivi extends DolibarrModules
 			'prefix' => img_picto('', $this->picto, 'class="paddingright pictofixedwidth"'),
 			'mainmenu'=>'CahierSuivi',
 			'leftmenu'=>'0',
+			'prefix' => img_picto('', $this->picto, 'class="paddingright pictofixedwidth"'),
+			//'prefix' => '&#129515,   -Petri--'
 			'url'=>'/custom/CahierSuivi/suivi_client/list_cahier.php?typeliste=generale&idmenu=160',
 			'langs'=>'cahiersuivi@CahierSuivi',
 			'position'=>51214,
