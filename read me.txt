@@ -1,0 +1,9 @@
+Pour en faire un moddule diffusable
+
+
+- HOOK pour ajouter la gestion des couleurs dans le dictionnaire
+- HOOK pour les deux boutons 
+
+Nouvelle Inscription et Nouveau contrat de suivi_client 
+Tiers et Dossier
+

@@ -1,0 +1,114 @@
+# Modif V 2.8 hiver 2023
+# Suivi Client
+
+# Suivi Client
+CahierSuivi=Cahier de suivi
+TiCahierSuivi=Cahier de suivi
+CS_ListeTitreTot=Journal de suivi client (liste complète)
+CS_ListeTitrePar=Journal de suivi client (liste des dossiers actifs)
+CS_ListeTiersTitrePar=Journal de suivi d'un Tiers (liste des dossiers actifs)
+CS_ListeTiersTitreTot=Journal de suivi d'un Tiers (liste complète)
+CS_ListeDosTitrePar=Journal de suivi d'un dossier
+CS_ListeDosTitreTot=Journal de suivi d'un dossier
+CglAvtTitreNotes=Bloc Notes
+NvInscription=Nouvelle inscription
+NvLocation=Nouveau contrat
+NvReservation=Nouvelle réservation
+LstCont=Liste Contrats en cours
+LstBull=Liste Bulletins en cours
+TiDescModCahierSuivi=Cahier de suivi des échanges de CigaleAventure
+CahierSuiviMenu=Suivi Échanges
+TiSuiviEchanges=Échanges avec le client
+EnrRetCah=Enregistrer et Retour Cahier
+DateCrea=Date création dossier
+
+CglAvtBtNotesCreer=Nouveau memento
+SC_Creation=Date de saisie
+SC_Creele=Créé le
+SC_MAJ=Traité le 
+SC_Mod=par
+SC_Modifle=Modifié le
+SC_Createur=Intégré par 
+SC_Moi=par
+SC_Modifieur=Modifié par
+SC_Tiers=Tiers
+CS_AidTelMailTiers=Appuyer sur la souris pour obtenir les coordonnées du tiers
+CS_LibTelMailSanTiers=Pas de tiers selectionne
+SC_Secteur=Secteur
+SC_NB=NB
+SC_Dossier=Dossier
+SC_Contact=Contact
+SC_Urgence=Priorité
+SC_Urgent=Prioritaire
+#SC_Action=Action à entreprendre
+SC_Action=Action à entreprendre
+SC_Realisation=cocher quand réalisé
+SC_Actionle=Sollicitation du client et réponses apportées
+SC_Origine=Origine du contact
+SC_Tel=Téléphone
+SC_Mail=Mail
+SC_TitreFiche=Echanges avec le client
+SC_Description=Description des échanges
+SC_Priorite=Statut
+SC_Type=Type Dossier
+Client=Client
+Fournisseur=Fournisseur
+SC_Interlocuteur=Interlocuteur
+GenDosCli=Dossier Client
+listtotal=Liste complète
+listrest=Liste dossiers actifs
+SC_Aide_Priorite=%s
+ConfEffacerEchange=Supprimer l'échange suivant
+CS_TitreSaisie=Saisie d'un échange
+CS_InfoCarSpeTexte=Les caractères 'AntiSlash' et 'Double quote' sont interdits dans le TITRE, la DESCRIPTION et l'ACTION
+Referent=Référent
+Activites=Activités
+ConfEffaceReferent=Enlever référent du dossier 
+ConfEffaceReferentQuest=Voulez-vous que ce dossier soit dans référent?
+AideModifDossier=Fiche du dossier
+AideModifTiers=Fiche  du client
+
+LibChangDossier=Affecter le % à un nouveau dossier
+ChangDossier=Associer à un autre dossier
+
+ErrMAJEchange=Mise a jour Echange
+ErrMAJInterlocuteur=Mise a jour Interlocuteur non traitée
+ErrMAJDossier=Mise a jour Dossier
+ErrSupEchange=Suppression Echange
+
+#Erreurs
+ErrInter=Mise à jour interlocuteur
+ErrTiers=Mise à jour tiers
+EnrCreatTiers=Tiers non créé - erreur n°
+EnrModTiers=Tiers non modifié - erreur n°
+ErrExtTiers=Existe un tiers avec le même nom %s
+ErrExtEchange=Existe un échange  avec le même titre %s, même dossier, même tiers, même action, même type
+ErrExtDossier=Existe un dossier  avec le même nom %s, même tiers, même secteur, même type
+ErrModDos=Mise à jour Dossier
+ErrModEch=Mise à jour Echange
+EnrCreatDos=Dossier non crée - erreur n° 
+EnrModDos=Dossier non modifié - erreur n° 
+EnrCreatEchg=Echange non créé - erreur n° 
+EnrModEchg=Echange non modifié - erreur n° 
+ErrEchg=Mise à jour Echange non traité
+ErrFmtEmail=Erreur de format mail pour %s:%s
+ErrFmtEmailSup=Erreur de format mail - mail supplementaire pour  %s:%s
+
+# Dictionnaires Suivi Client�le
+DictionarySecteur=Secteur
+DictionaryPriorite=Statut des dossiers client
+DictTablTypeDossier=Liste des type des dossiers client
+DictTablPriorite=Liste des statuts des dossiers client
+DictTablSecteur=Liste des secteurs d'activités
+
+# accent
+Accent=Etes:Êtes
+Accent=s�r=sûr
+Accent=cl�tur�e:clôturée
+Accent=etre:être 
+Accent= o�:où
+Accent=�:à
+Accent �: è
+
+
+
